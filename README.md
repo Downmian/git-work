@@ -48,6 +48,10 @@ Después de hacer clic en 'Create fork', deberíamos tener un repositorio simila
 ![Fork creado](/imagenes%20usuario%202/imagen_2025-09-20_143051867.png)
 
 1. **user2 clonará su fork del repo.**
+
+Para clonar el repositorio ya creado mediente unn fork, pondremos el siguiente comando en una terminal:
+
+![Clonación repositorio](/imagenes%20usuario%202/imagen_2025-09-20_144555887.png)
 1. **user1 creará una issue con el título "Add custom text for startup contents".**
 1. **user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup**
 1. **user2 enviará un PR a user1.**

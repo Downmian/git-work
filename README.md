@@ -27,7 +27,22 @@ El objetivo de esta práctica, como se mencionó en el apartado anterior, es ref
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
++ **HARDWARE**
+    + Usuario 1 (Damián):
+        + Ordenador de sobremesa: Intel Core i5 9400 F
+    + Usuario 2 (Carla): 
+        + Ordenador de sobremesa: AMD RYZEN 7 7500G
+
++ **SOFTWARE**
+    + Usuario 1 (Damián):
+        + Virtual Box (máquina Debian 64bits)
+        + Windows 10 (máquina real)
+        + Visual studio code (Editor de texto)
+        + Opera (Navegador)
+    + Usuario 2 (Carla):
+        + Windows 10 (Máquina real)
+        + Visual studio code (Editor de texto)
+        + Opera (Navegador)
 
 #### ***Desarrollo***. <a name="id4"></a>
 

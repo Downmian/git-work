@@ -49,19 +49,21 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 1. **user2 clonará su fork del repo.**
 
-    + Para clonar el repositorio ya creado mediente unn fork, pondremos el siguiente comando en una terminal:
+    + Para clonar el repositorio ya creado mediente un fork, pondremos el siguiente comando en una terminal:
 
     ![Clonación repositorio](/imagenes%20usuario%202/imagen_2025-09-20_144555887.png)
 1. **user1 creará una issue con el título "Add custom text for startup contents".**
 1. **user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup**
 
-    + Para crear la nueva rama, crearemos una rama en local con el comando, git branch "nombre de la rama", nos moveremos a ella, git checkout "nombre de la rama". Una vez realizados los cambios en el index.html, realizaremos un commit y pondremos el siguiente comando para que se cree la rama en el repositiorio y a su vez realizar el PR. 
+    + Para crear una nueva rama, primero la generamos localmente con el comando git branch "nombre-de-la-rama", y luego nos movemos a ella con git checkout "nombre-de-la-rama".
+
+    + Una vez realizados los cambios en el archivo index.html, hacemos un commit. Después, utilizamos el siguiente comando para subir la rama al repositorio remoto y, a su vez, crear el pull request (PR): 
 
     ![Creación rama](/imagenes%20usuario%202/imagen_2025-09-20_145658116.png)
 
 1. **user2 enviará un PR a user1.**
 
-    + Cuando realizamos el comando del apartado anterior, deberíamos tener un mensaje como este en el repositorio de github. Este indica que hay una PR de la rama creada anteriormente
+    + Al ejecutar el comando mencionado en el apartado anterior, deberíamos ver un mensaje como el siguiente en el repositorio de GitHub. Este mensaje indica que se ha creado un pull request (PR) desde la rama que generamos previamente.
 
     ![CPR](/imagenes%20usuario%202/imagen_2025-09-20_145932398.png)
 1. **user1 probará el PR de user2 en su máquina (copia local) creando previamente un remoto denominado upstream, y realizará ciertos cambios en su copia local que luego deberá subir al propio PR.**

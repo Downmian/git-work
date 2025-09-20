@@ -36,6 +36,7 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
     + user2: Carla
 
 1. **user1 creará un repositorio público llamado git-work en su cuenta de GitHub, añadiendo un README.md y una licencia MIT.**
+<<<<<<< add-user1-images
 
 Creamos el repositorio en GitHub añadiendo lo que se nos indica.
    
@@ -55,6 +56,9 @@ Añadimos los cambios que hemos hecho y los subimos al upstream.
 
 ![Primer commit](user1_images/images/user1_image4.jpg)
    
+=======
+1. **user1 clonará el repo y añadirá los ficheros: index.html, bootstrap.min.css y cover.css. Luego subirá los cambios al upstream.**
+>>>>>>> main
 1. **user2 creará un fork de git-work desde su cuenta de GitHub.**
 
 Para crear un fork, se utiliza la herramienta que ofrece el propio GitHub. Esto generará una copia del repositorio original creado por el usuario 'user1'.
@@ -70,6 +74,7 @@ Después de hacer clic en 'Create fork', deberíamos tener un repositorio simila
 Para clonar el repositorio ya creado mediente unn fork, pondremos el siguiente comando en una terminal:
 
 ![Clonación repositorio](/imagenes%20usuario%202/imagen_2025-09-20_144555887.png)
+<<<<<<< add-user1-images
 
 1. **user1 creará una issue con el título "Add custom text for startup contents".**
 
@@ -77,6 +82,9 @@ Creamos una issue desde el apartado "Issues" en GitHub.
 
 ![Fork creado](/imagenes%20usuario%202/imagen_2025-09-20_143051867.png)   
    
+=======
+1. **user1 creará una issue con el título "Add custom text for startup contents".**
+>>>>>>> main
 1. **user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup**
 1. **user2 enviará un PR a user1.**
 1. **user1 probará el PR de user2 en su máquina (copia local) creando previamente un remoto denominado upstream, y realizará ciertos cambios en su copia local que luego deberá subir al propio PR.**
@@ -101,4 +109,8 @@ Si encontramos dificultades a la hora de realizar algún paso debemos explicar e
 
 #### ***Conclusiones***. <a name="id5"></a>
 
+<<<<<<< add-user1-images
 En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+=======
+En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+>>>>>>> main

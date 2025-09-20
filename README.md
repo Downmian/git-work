@@ -57,12 +57,12 @@ Para clonar el repositorio ya creado mediente unn fork, pondremos el siguiente c
 
 Para crear la nueva rama, crearemos una rama en local con el comando, git branch "nombre de la rama", nos moveremos a ella, git checkout "nombre de la rama". Una vez realizados los cambios en el index.html, realizaremos un commit y pondremos el siguiente comando para que se cree la rama en el repositiorio y a su vez realizar el PR. 
 
-![Creación rama](/git-work/imagenes%20usuario%202/imagen_2025-09-20_145658116.png)
+![Creación rama](/imagenes%20usuario%202/imagen_2025-09-20_145658116.png)
 1. **user2 enviará un PR a user1.**
 
 Cuando realizamos el comando del apartado anterior, deberíamos tener un mensaje como este en el repositorio de github. Este indica que hay una PR de la rama creada anteriormente
 
-![CPR](/git-work/imagenes%20usuario%202/imagen_2025-09-20_145932398.png)
+![CPR](/imagenes%20usuario%202/imagen_2025-09-20_145932398.png)
 1. **user1 probará el PR de user2 en su máquina (copia local) creando previamente un remoto denominado upstream, y realizará ciertos cambios en su copia local que luego deberá subir al propio PR.**
 1. **user1 y user2 tendrán una pequeña conversación en la página del PR, donde cada usuario incluirá, al menos, un cambio más.**
 1. **user1 finalmente aprobará el PR, cerrará la issue creada (usando una referencia a la misma) y actualizará la rama principal en su copia local.**

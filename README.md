@@ -36,7 +36,25 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
     + user2: Carla
 
 1. **user1 creará un repositorio público llamado git-work en su cuenta de GitHub, añadiendo un README.md y una licencia MIT.**
+
+    Creamos el repositorio en GitHub añadiendo lo que se nos indica.
+   
+    ![Creación de repositorio](user1_images/images/user1_image1.jpg)
+   
 1. **user1 clonará el repo y añadirá los ficheros: index.html, bootstrap.min.css y cover.css. Luego subirá los cambios al upstream.**
+
+    Clonamos en repositorio en nuestra máquina.
+
+    ![Clonar repositorio](user1_images/images/user1_image2.jpg)
+
+    Creamos los ficheros index.html, bootstrap.min.css y cover.css.
+
+    ![Creación ficheros](user1_images/images/user1_image3.jpg)
+
+    Añadimos los cambios que hemos hecho y los subimos al upstream.
+
+    ![Primer commit](user1_images/images/user1_image4.jpg)
+
 1. **user2 creará un fork de git-work desde su cuenta de GitHub.**
 
     + Para crear un fork, se utiliza la herramienta que ofrece el propio GitHub. Esto generará una copia del repositorio original creado por el usuario 'user1'.
@@ -49,21 +67,25 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 1. **user2 clonará su fork del repo.**
 
-    + Para clonar el repositorio ya creado mediente un fork, pondremos el siguiente comando en una terminal:
+    + Para clonar el repositorio ya creado mediente unn fork, pondremos el siguiente comando en una terminal:
 
     ![Clonación repositorio](/imagenes%20usuario%202/imagen_2025-09-20_144555887.png)
+   
 1. **user1 creará una issue con el título "Add custom text for startup contents".**
+
+    Vamos al apartado de "Issues" en GitHub y la creamos
+   
+    ![Creación issue](user1_images/images/user1_image5.jpg)
+   
 1. **user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup**
 
-    + Para crear una nueva rama, primero la generamos localmente con el comando git branch "nombre-de-la-rama", y luego nos movemos a ella con git checkout "nombre-de-la-rama".
-
-    + Una vez realizados los cambios en el archivo index.html, hacemos un commit. Después, utilizamos el siguiente comando para subir la rama al repositorio remoto y, a su vez, crear el pull request (PR): 
+    + Para crear la nueva rama, crearemos una rama en local con el comando, git branch "nombre de la rama", nos moveremos a ella, git checkout "nombre de la rama". Una vez realizados los cambios en el index.html, realizaremos un commit y pondremos el siguiente comando para que se cree la rama en el repositiorio y a su vez realizar el PR. 
 
     ![Creación rama](/imagenes%20usuario%202/imagen_2025-09-20_145658116.png)
 
 1. **user2 enviará un PR a user1.**
 
-    + Al ejecutar el comando mencionado en el apartado anterior, deberíamos ver un mensaje como el siguiente en el repositorio de GitHub. Este mensaje indica que se ha creado un pull request (PR) desde la rama que generamos previamente.
+    + Cuando realizamos el comando del apartado anterior, deberíamos tener un mensaje como este en el repositorio de github. Este indica que hay una PR de la rama creada anteriormente
 
     ![CPR](/imagenes%20usuario%202/imagen_2025-09-20_145932398.png)
 1. **user1 probará el PR de user2 en su máquina (copia local) creando previamente un remoto denominado upstream, y realizará ciertos cambios en su copia local que luego deberá subir al propio PR.**

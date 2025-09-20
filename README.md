@@ -38,6 +38,15 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 1. **user1 creará un repositorio público llamado git-work en su cuenta de GitHub, añadiendo un README.md y una licencia MIT.**
 1. **user1 clonará el repo y añadirá los ficheros: index.html, bootstrap.min.css y cover.css. Luego subirá los cambios al upstream.**
 1. **user2 creará un fork de git-work desde su cuenta de GitHub.**
+
+Para crear un fork, se utiliza la herramienta que ofrece el propio GitHub. Esto generará una copia del repositorio original creado por el usuario 'user1'.
+
+![Creación del fork](/imagenes%20usuario%202/imagen_2025-09-20_142931700.png)
+
+Después de hacer clic en 'Create fork', deberíamos tener un repositorio similar al siguiente.
+
+![Fork creado](/imagenes%20usuario%202/imagen_2025-09-20_143051867.png)
+
 1. **user2 clonará su fork del repo.**
 1. **user1 creará una issue con el título "Add custom text for startup contents".**
 1. **user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup**

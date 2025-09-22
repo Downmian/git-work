@@ -128,4 +128,4 @@ Si encontramos dificultades a la hora de realizar algún paso debemos explicar e
 
 #### **_Conclusiones_**. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+Para concluir, esta practica nos ayuda a prepararnos para cuando en un futuro tengamos en participar el `rpyectos reales con nuestros compañeros de empresa, acostumbrandonops a realizar buenas practicas desde el principio. 

@@ -107,6 +107,11 @@ El objetivo de esta práctica, como se mencionó en el apartado anterior, es ref
 1. **user1 y user2 tendrán una pequeña conversación en la página del PR, donde cada usuario incluirá, al menos, un cambio más.**
 1. **user1 finalmente aprobará el PR, cerrará la issue creada (usando una referencia a la misma) y actualizará la rama principal en su copia local.**
 1. **user2 deberá incorporar los cambios de la rama principal de upstream en su propia rama principal.**
+
+    + Para incorporar los cambios se ejecutará el siguiente comando: 
+
+    ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_101907907.png)
+
 1. **user1 creará una issue con el título "Improve UX with cool colors".**
 1. **user1 cambiará la línea 10 de cover.css a: color: purple;**
 1. **user1 hará simplemente un commit local en main → NO HACER git push.**

@@ -119,8 +119,23 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
    ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_101907907.png)
 
 1. **user1 creará una issue con el título "Improve UX with cool colors".**
+
+   - Vamos al apartado de "Issues" en GitHub y creamos una nueva issue llamada "Improve UX with cool colors"
+
+   ![Nueva issue](user1_images/images/user1_image12.jpg)
+
 1. **user1 cambiará la línea 10 de cover.css a: color: purple;**
+
+   - Vamos al fichero cover.css y cambiamos la linea 10 de "color: #333" a "color: purple"
+
+   ![Cambio a cover](user1_images/images/user1_image13.jpg)
+
 1. **user1 hará simplemente un commit local en main → NO HACER git push.**
+
+   - Despues de hacer el cambio a cover.css, hacemos un commit en local pero no lo subimos
+
+   ![Commit local](user1_images/images/user1_image14.jpg)
+
 1. **user2 creará una nueva rama cool-colors y cambiará la línea 10 de cover.css a: color: darkgreen;**
 1. **user2 enviará un PR a user1.**
 1. **user1 probará el PR de user2 (en su copia local). A continuación tratará de mergear el contenido de la rama cool-colors en su rama principal y tendrá que gestionar el conflicto: Dejar el contenido que viene de user2.**

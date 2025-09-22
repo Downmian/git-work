@@ -119,17 +119,59 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
    ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_101907907.png)
 
 1. **user1 creará una issue con el título "Improve UX with cool colors".**
+
+   - Vamos al apartado de "Issues" en GitHub y creamos una llamada "Improve UX with cool colors"
+
+   ![Issue2](user1_images/images/user1_image12.jpg)
+
 1. **user1 cambiará la línea 10 de cover.css a: color: purple;**
+
+   - Vamos al fichero cover.css y cambiamos la linea 10 de "color: #333" a "color: purple"
+
+   ![purple](user1_images/images/user1_image13.jpg)
+
 1. **user1 hará simplemente un commit local en main → NO HACER git push.**
+
+   - Hacemos el commit pero no lo subimos a main
+
+   ![CPR](user1_images/images/user1_image14.jpg)
+
 1. **user2 creará una nueva rama cool-colors y cambiará la línea 10 de cover.css a: color: darkgreen;**
-    + Creamos la rama, con el siguiente comando, y modificamos el color de dicha linea.
-    ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_110004382.png)
+
+   - Creamos la rama, con el siguiente comando, y modificamos el color de dicha linea.
+     ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_110004382.png)
+
 1. **user2 enviará un PR a user1.**
-    + Creamos el Pull Request realizando el commit como lo haríamos normalmente, y luego utilizamos el siguiente comando para crear y vincular la nueva rama en el repositorio remoto: git push --set-upstream origin cool-colors
+
+   - Creamos el Pull Request realizando el commit como lo haríamos normalmente, y luego utilizamos el siguiente comando para crear y vincular la nueva rama en el repositorio remoto: git push --set-upstream origin cool-colors
+
 1. **user1 probará el PR de user2 (en su copia local). A continuación tratará de mergear el contenido de la rama cool-colors en su rama principal y tendrá que gestionar el conflicto: Dejar el contenido que viene de user2.**
+
+   - Intentaremos probar el cambio de usuario 2 y veremos que nos da un conflicto con nuestro cambio, pero dejaremos el cambio hecho por el usuario 2
+
+   ![CPR](user1_images/images/user1_image15.jpg)
+
 1. **Después del commit para arreglar el conflicto, user1 modificará la línea 11 de cover.css a: text-shadow: 2px 2px 8px lightgreen;**
+
+   - Despues de commitear y arreglar el conflicto, modificaremos la siguiente linea del fichero en el que estabamos trabajando
+
+   ![CPR](user1_images/images/user1_image16.jpg)
+
 1. **user1 hará un commit especificando en el mensaje de commit el cambio hecho (sombra) y que se cierra la issue creada (usar referencia a la issue). A continuación subirá los cambios a origin/main.**
+
+   - Haremos un commit con un mensaje con el cambio de la sombra y cerraremos la issue, luego subiremos todos los cambios a main
+
+   ![CPR](user1_images/images/user1_image17.jpg)
+
 1. **user1 etiquetará esta versión (en su copia local) como 0.1.0 y después de subir los cambios creará una "release" en GitHub apuntando a esta etiqueta.**
+
+   - Etiquetamos en nuestra maquina local esta versión como 0.1.0 y subiremos los cambios
+
+   ![CPR](user1_images/images/user1_image18.jpg)
+
+   - Después de subir los cambios iremos al apartado "Releases" de nuestro repositorio de GitHub y publicaremos esta release
+
+   ![CPR](user1_images/images/user1_image19.jpg)
 
 > **_IMPORTANTE:_** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 

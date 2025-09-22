@@ -2,109 +2,109 @@
 
 # TÍTULO DE LA PRÁCTICA
 
-
 </center>
 
-***Nombre:*** Damián Maneiro Lorenzo, Carla García Pacheco  
-***Curso:*** 2º de Ciclo Superior de Desarrollo de Aplicaciones Web.
+**_Nombre:_** Damián Maneiro Lorenzo, Carla García Pacheco  
+**_Curso:_** 2º de Ciclo Superior de Desarrollo de Aplicaciones Web.
 
 ### ÍNDICE
 
-+ [Introducción](#id1)
-+ [Objetivos](#id2)
-+ [Material empleado](#id3)
-+ [Desarrollo](#id4)
-+ [Conclusiones](#id5)
+- [Introducción](#id1)
+- [Objetivos](#id2)
+- [Material empleado](#id3)
+- [Desarrollo](#id4)
+- [Conclusiones](#id5)
 
-
-#### ***Introducción***. <a name="id1"></a>
+#### **_Introducción_**. <a name="id1"></a>
 
 La siguiente práctica propuesta consta de una serie de pasos destinados a practicar y reforzar el uso del control de versiones con Git. Consiste en un total de 21 mini-tareas, en las que crearemos un repositorio en GitHub y llevaremos a cabo diversas actividades, como pull requests, issues, commits, entre otras.
 
-#### ***Objetivos***. <a name="id2"></a>
+#### **_Objetivos_**. <a name="id2"></a>
 
 El objetivo de esta práctica, como se mencionó en el apartado anterior, es reforzar los conocimientos adquiridos en el curso anterior sobre el manejo de Git y GitHub. Para ello, las distintas mini-tareas abordarán el uso de ramas y los comandos básicos necesarios para hacer un buen uso de esta herramienta.
 
-#### ***Material empleado***. <a name="id3"></a>
+#### **_Material empleado_**. <a name="id3"></a>
 
-+ **HARDWARE**
-    + Usuario 1 (Damián):
-        + Ordenador de sobremesa: Intel Core i5 9400 F
-    + Usuario 2 (Carla): 
-        + Ordenador de sobremesa: AMD RYZEN 7 7500G
+Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo)
 
-+ **SOFTWARE**
-    + Usuario 1 (Damián):
-        + Virtual Box (máquina Debian 64bits)
-        + Windows 10 (máquina real)
-        + Visual studio code (Editor de texto)
-        + Opera (Navegador)
-    + Usuario 2 (Carla):
-        + Windows 10 (Máquina real)
-        + Visual studio code (Editor de texto)
-        + Opera (Navegador)
-
-#### ***Desarrollo***. <a name="id4"></a>
+#### **_Desarrollo_**. <a name="id4"></a>
 
 1. **El alumnado trabajará por parejas: user1 y user2. Indicar quién es user1 y quién es user2.**
-    + user1: Damián
-    + user2: Carla
+
+   - user1: Damián
+   - user2: Carla
 
 1. **user1 creará un repositorio público llamado git-work en su cuenta de GitHub, añadiendo un README.md y una licencia MIT.**
 
-    Creamos el repositorio en GitHub añadiendo lo que se nos indica.
-   
-    ![Creación de repositorio](user1_images/images/user1_image1.jpg)
-   
+   Creamos el repositorio en GitHub añadiendo lo que se nos indica.
+
+   ![Creación de repositorio](user1_images/images/user1_image1.jpg)
+
 1. **user1 clonará el repo y añadirá los ficheros: index.html, bootstrap.min.css y cover.css. Luego subirá los cambios al upstream.**
 
-    Clonamos en repositorio en nuestra máquina.
+   Clonamos en repositorio en nuestra máquina.
 
-    ![Clonar repositorio](user1_images/images/user1_image2.jpg)
+   ![Clonar repositorio](user1_images/images/user1_image2.jpg)
 
-    Creamos los ficheros index.html, bootstrap.min.css y cover.css.
+   Creamos los ficheros index.html, bootstrap.min.css y cover.css.
 
-    ![Creación ficheros](user1_images/images/user1_image3.jpg)
+   ![Creación ficheros](user1_images/images/user1_image3.jpg)
 
-    Añadimos los cambios que hemos hecho y los subimos al upstream.
+   Añadimos los cambios que hemos hecho y los subimos al upstream.
 
-    ![Primer commit](user1_images/images/user1_image4.jpg)
+   ![Primer commit](user1_images/images/user1_image4.jpg)
 
 1. **user2 creará un fork de git-work desde su cuenta de GitHub.**
 
-    + Para crear un fork, se utiliza la herramienta que ofrece el propio GitHub. Esto generará una copia del repositorio original creado por el usuario 'user1'.
+   - Para crear un fork, se utiliza la herramienta que ofrece el propio GitHub. Esto generará una copia del repositorio original creado por el usuario 'user1'.
 
-    ![Creación del fork](/imagenes%20usuario%202/imagen_2025-09-20_142931700.png)
+   ![Creación del fork](/imagenes%20usuario%202/imagen_2025-09-20_142931700.png)
 
-    + Después de hacer clic en 'Create fork', deberíamos tener un repositorio similar al siguiente.
+   - Después de hacer clic en 'Create fork', deberíamos tener un repositorio similar al siguiente.
 
-    ![Fork creado](/imagenes%20usuario%202/imagen_2025-09-20_143051867.png)
+   ![Fork creado](/imagenes%20usuario%202/imagen_2025-09-20_143051867.png)
 
 1. **user2 clonará su fork del repo.**
 
-    + Para clonar el repositorio ya creado mediente unn fork, pondremos el siguiente comando en una terminal:
+   - Para clonar el repositorio ya creado mediente unn fork, pondremos el siguiente comando en una terminal:
 
-    ![Clonación repositorio](/imagenes%20usuario%202/imagen_2025-09-20_144555887.png)
-   
+   ![Clonación repositorio](/imagenes%20usuario%202/imagen_2025-09-20_144555887.png)
+
 1. **user1 creará una issue con el título "Add custom text for startup contents".**
 
-    Vamos al apartado de "Issues" en GitHub y la creamos
-   
-    ![Creación issue](user1_images/images/user1_image5.jpg)
-   
+   Vamos al apartado de "Issues" en GitHub y la creamos
+
+   ![Creación issue](user1_images/images/user1_image5.jpg)
+
 1. **user2 creará una nueva rama custom-text y modificará el fichero index.html personalizándolo para una supuesta startup**
 
-    + Para crear la nueva rama, crearemos una rama en local con el comando, git branch "nombre de la rama", nos moveremos a ella, git checkout "nombre de la rama". Una vez realizados los cambios en el index.html, realizaremos un commit y pondremos el siguiente comando para que se cree la rama en el repositiorio y a su vez realizar el PR. 
+   - Para crear la nueva rama, crearemos una rama en local con el comando, git branch "nombre de la rama", nos moveremos a ella, git checkout "nombre de la rama". Una vez realizados los cambios en el index.html, realizaremos un commit y pondremos el siguiente comando para que se cree la rama en el repositiorio y a su vez realizar el PR.
 
-    ![Creación rama](/imagenes%20usuario%202/imagen_2025-09-20_145658116.png)
+   ![Creación rama](/imagenes%20usuario%202/imagen_2025-09-20_145658116.png)
 
 1. **user2 enviará un PR a user1.**
 
-    + Cuando realizamos el comando del apartado anterior, deberíamos tener un mensaje como este en el repositorio de github. Este indica que hay una PR de la rama creada anteriormente
+   - Cuando realizamos el comando del apartado anterior, deberíamos tener un mensaje como este en el repositorio de github. Este indica que hay una PR de la rama creada anteriormente
 
-    ![CPR](/imagenes%20usuario%202/imagen_2025-09-20_145932398.png)
+   ![CPR](/imagenes%20usuario%202/imagen_2025-09-20_145932398.png)
+
 1. **user1 probará el PR de user2 en su máquina (copia local) creando previamente un remoto denominado upstream, y realizará ciertos cambios en su copia local que luego deberá subir al propio PR.**
+
+   - Añadimos en repositorio local si es que no existe en nuestra máquina
+
+   ![Rep local](user1_images/images/user1_image6.jpg)
+
+   - Cambiamos a la rama donde se encuentra el PR, realizamos modificaciones y subimos los cambios a la rama del PR
+
+   ![Cambios PR](user1_images/images/user1_image7.jpg)
+
 1. **user1 y user2 tendrán una pequeña conversación en la página del PR, donde cada usuario incluirá, al menos, un cambio más.**
+
+   - Se hace la conversación en el apartado de "Pull requests" en GitHub y cada uno sube un aporte
+
+   ![Conversacion PR](user1_images/images/user1_image9.jpg)
+   ![Aporte PR](user1_images/images/user1_image8.jpg)
+
 1. **user1 finalmente aprobará el PR, cerrará la issue creada (usando una referencia a la misma) y actualizará la rama principal en su copia local.**
 1. **user2 deberá incorporar los cambios de la rama principal de upstream en su propia rama principal.**
 
@@ -122,12 +122,10 @@ El objetivo de esta práctica, como se mencionó en el apartado anterior, es ref
 1. **user1 hará un commit especificando en el mensaje de commit el cambio hecho (sombra) y que se cierra la issue creada (usar referencia a la issue). A continuación subirá los cambios a origin/main.**
 1. **user1 etiquetará esta versión (en su copia local) como 0.1.0 y después de subir los cambios creará una "release" en GitHub apuntando a esta etiqueta.**
 
-
-
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
+> **_IMPORTANTE:_** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
 Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
 
-#### ***Conclusiones***. <a name="id5"></a>
+#### **_Conclusiones_**. <a name="id5"></a>
 
 En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.

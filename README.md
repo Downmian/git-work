@@ -122,7 +122,10 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 1. **user1 cambiará la línea 10 de cover.css a: color: purple;**
 1. **user1 hará simplemente un commit local en main → NO HACER git push.**
 1. **user2 creará una nueva rama cool-colors y cambiará la línea 10 de cover.css a: color: darkgreen;**
+    + Creamos la rama, con el siguiente comando, y modificamos el color de dicha linea.
+    ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_110004382.png)
 1. **user2 enviará un PR a user1.**
+    + Creamos el Pull Request realizando el commit como lo haríamos normalmente, y luego utilizamos el siguiente comando para crear y vincular la nueva rama en el repositorio remoto: git push --set-upstream origin cool-colors
 1. **user1 probará el PR de user2 (en su copia local). A continuación tratará de mergear el contenido de la rama cool-colors en su rama principal y tendrá que gestionar el conflicto: Dejar el contenido que viene de user2.**
 1. **Después del commit para arreglar el conflicto, user1 modificará la línea 11 de cover.css a: text-shadow: 2px 2px 8px lightgreen;**
 1. **user1 hará un commit especificando en el mensaje de commit el cambio hecho (sombra) y que se cierra la issue creada (usar referencia a la issue). A continuación subirá los cambios a origin/main.**

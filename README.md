@@ -106,11 +106,17 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
    ![Aporte PR](user1_images/images/user1_image8.jpg)
 
 1. **user1 finalmente aprobará el PR, cerrará la issue creada (usando una referencia a la misma) y actualizará la rama principal en su copia local.**
+
+   - Cerramos el PR aprobándolo de la manera que se ve en la siguiente imagen y actualizamos la rama principal con la copia de nuestra local
+
+   ![Merge](user1_images/images/user1_image10.jpg)
+   ![Actualizar rama](user1_images/images/user1_image11.jpg)
+
 1. **user2 deberá incorporar los cambios de la rama principal de upstream en su propia rama principal.**
 
-    + Para incorporar los cambios se ejecutará el siguiente comando: 
+   - Para incorporar los cambios se ejecutará el siguiente comando:
 
-    ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_101907907.png)
+   ![CPR](/imagenes%20usuario%202/imagen_2025-09-22_101907907.png)
 
 1. **user1 creará una issue con el título "Improve UX with cool colors".**
 1. **user1 cambiará la línea 10 de cover.css a: color: purple;**
@@ -128,4 +134,8 @@ Si encontramos dificultades a la hora de realizar algún paso debemos explicar e
 
 #### **_Conclusiones_**. <a name="id5"></a>
 
-Para concluir, esta practica nos ayuda a prepararnos para cuando en un futuro tengamos en participar el `rpyectos reales con nuestros compañeros de empresa, acostumbrandonops a realizar buenas practicas desde el principio. 
+Para concluir, esta práctica nos ayuda a prepararnos para participar en proyectos reales con nuestros compañeros en un entorno laboral. Nos permite familiarizarnos con herramientas y procesos clave del desarrollo colaborativo, como el uso de Git y GitHub, la gestión de repositorios, ramas y Pull Requests, y la creación de issues.
+
+Además, refuerza la importancia de aplicar buenas prácticas desde el inicio, como una comunicación clara, revisión de código y resolución de conflictos de forma ordenada.
+
+En conjunto, esta actividad nos entrena para trabajar de manera más profesional, organizada y efectiva dentro de un equipo de desarrollo.

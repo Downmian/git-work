@@ -17,15 +17,32 @@
 
 #### **_Introducción_**. <a name="id1"></a>
 
-La siguiente práctica propuesta consta de una serie de pasos destinados a practicar y reforzar el uso del control de versiones con Git. Consiste en un total de 21 mini-tareas, en las que crearemos un repositorio en GitHub y llevaremos a cabo diversas actividades, como pull requests, issues, commits, entre otras.
++ La siguiente práctica propuesta consta de una serie de pasos destinados a practicar y reforzar el uso del control de versiones con Git. Consiste en un total de 21 mini-tareas, en las que crearemos un repositorio en GitHub y llevaremos a cabo diversas actividades, como pull requests, issues, commits, entre otras.
 
 #### **_Objetivos_**. <a name="id2"></a>
 
-El objetivo de esta práctica, como se mencionó en el apartado anterior, es reforzar los conocimientos adquiridos en el curso anterior sobre el manejo de Git y GitHub. Para ello, las distintas mini-tareas abordarán el uso de ramas y los comandos básicos necesarios para hacer un buen uso de esta herramienta.
++ El objetivo de esta práctica, como se mencionó en el apartado anterior, es reforzar los conocimientos adquiridos en el curso anterior sobre el manejo de Git y GitHub. Para ello, las distintas mini-tareas abordarán el uso de ramas y los comandos básicos necesarios para hacer un buen uso de esta herramienta.
 
 #### **_Material empleado_**. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo)
+ + Hardware
+   + Damián:
+      + PC de sobremesa: Intel i5 9500
+   + Carla: 
+      + PC de sobremesa: AMD Ryzen 7 5700G
+
++ Software: 
+   + Damián: 
+      + Windows 10 (Máquina real)
+      + Debian (Máquina Virtual)
+      + Opera (Navegador)
+      + Visual studio code (Editor de texto)
+   + Carla:
+      +  Windows 10 (Máquina real)
+      + Opera (Navegador)
+      + Visual studio code (Editor de texto)
+      
+      
 
 #### **_Desarrollo_**. <a name="id4"></a>
 
@@ -36,21 +53,21 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 1. **user1 creará un repositorio público llamado git-work en su cuenta de GitHub, añadiendo un README.md y una licencia MIT.**
 
-   Creamos el repositorio en GitHub añadiendo lo que se nos indica.
+   + Creamos el repositorio en GitHub añadiendo lo que se nos indica.
 
    ![Creación de repositorio](user1_images/images/user1_image1.jpg)
 
 1. **user1 clonará el repo y añadirá los ficheros: index.html, bootstrap.min.css y cover.css. Luego subirá los cambios al upstream.**
 
-   Clonamos en repositorio en nuestra máquina.
+   + Clonamos en repositorio en nuestra máquina.
 
    ![Clonar repositorio](user1_images/images/user1_image2.jpg)
 
-   Creamos los ficheros index.html, bootstrap.min.css y cover.css.
+   + Creamos los ficheros index.html, bootstrap.min.css y cover.css.
 
    ![Creación ficheros](user1_images/images/user1_image3.jpg)
 
-   Añadimos los cambios que hemos hecho y los subimos al upstream.
+   + Añadimos los cambios que hemos hecho y los subimos al upstream.
 
    ![Primer commit](user1_images/images/user1_image4.jpg)
 
@@ -72,7 +89,7 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 1. **user1 creará una issue con el título "Add custom text for startup contents".**
 
-   Vamos al apartado de "Issues" en GitHub y la creamos
+   + Vamos al apartado de "Issues" en GitHub y la creamos
 
    ![Creación issue](user1_images/images/user1_image5.jpg)
 
@@ -173,14 +190,11 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
    ![CPR](user1_images/images/user1_image19.jpg)
 
-> **_IMPORTANTE:_** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
-
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
 
 #### **_Conclusiones_**. <a name="id5"></a>
 
-Para concluir, esta práctica nos ayuda a prepararnos para participar en proyectos reales con nuestros compañeros en un entorno laboral. Nos permite familiarizarnos con herramientas y procesos clave del desarrollo colaborativo, como el uso de Git y GitHub, la gestión de repositorios, ramas y Pull Requests, y la creación de issues.
++ Para concluir, esta práctica nos ayuda a prepararnos para participar en proyectos reales con nuestros compañeros en un entorno laboral. Nos permite familiarizarnos con herramientas y procesos clave del desarrollo colaborativo, como el uso de Git y GitHub, la gestión de repositorios, ramas y Pull Requests, y la creación de issues.
 
-Además, refuerza la importancia de aplicar buenas prácticas desde el inicio, como una comunicación clara, revisión de código y resolución de conflictos de forma ordenada.
++ Además, refuerza la importancia de aplicar buenas prácticas desde el inicio, como una comunicación clara, revisión de código y resolución de conflictos de forma ordenada.
 
-En conjunto, esta actividad nos entrena para trabajar de manera más profesional, organizada y efectiva dentro de un equipo de desarrollo.
++ En conjunto, esta actividad nos entrena para trabajar de manera más profesional, organizada y efectiva dentro de un equipo de desarrollo.

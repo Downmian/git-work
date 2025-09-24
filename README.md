@@ -1,6 +1,6 @@
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# Documentación y sistema de control de versiones
 
 </center>
 
